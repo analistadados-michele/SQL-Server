@@ -1,0 +1,1 @@
+FLOOR(DATEDIFF(DAY, CONVERT(DATE,DataNascimento, 103), GETDATE()) / 365.25) AS Idade
